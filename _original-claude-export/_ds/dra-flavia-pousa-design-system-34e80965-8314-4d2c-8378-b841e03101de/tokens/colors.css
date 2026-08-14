@@ -1,0 +1,44 @@
+:root{
+/* ── Brand base ───────────────────────────────────────────── */
+--blush-50:#FEF8F9;--blush-100:#FDEEF1;--blush-200:#F8DDE1;--blush-300:#F0C6CD;--blush-400:#E3A6B1;
+--wine-900:#3D0A13;--wine-800:#56101B;--wine-700:#6E1423;--wine-600:#8A2333;--wine-500:#A63C4B;--wine-300:#C9808B;--wine-100:#EDD3D7;
+--gold-700:#8E6B2B;--gold-600:#B08A3C;--gold-500:#C9A24B;--gold-400:#D8B96F;--gold-300:#E3C77E;--gold-100:#F3E6C8;
+/* Warm neutrals — never grey-blue */
+--ivory:#FDFBFA;--sand-50:#FAF6F4;--sand-100:#F3ECE8;--sand-200:#E7DDD8;--sand-300:#D3C6BF;
+--stone-400:#B4A7A2;--stone-500:#9A8C87;--stone-600:#7A6C68;--stone-700:#574B48;--ink:#2E2422;
+/* Sage — secondary accent carried over from palette C, used sparingly for "success"/calm states */
+--sage-500:#7C8B6C;--sage-100:#E7EADF;
+--white:#FFFFFF;
+
+/* ── Gradients ────────────────────────────────────────────── */
+--gradient-gold:linear-gradient(135deg,#E3C77E 0%,#C9A24B 45%,#8E6B2B 100%); /* @kind color */
+--gradient-gold-soft:linear-gradient(135deg,#F3E6C8 0%,#D8B96F 100%); /* @kind color */
+--gradient-wine:linear-gradient(140deg,#8A2333 0%,#6E1423 55%,#3D0A13 100%); /* @kind color */
+--gradient-blush:linear-gradient(180deg,#FEF8F9 0%,#F8DDE1 100%); /* @kind color */
+--gradient-veil:linear-gradient(180deg,rgba(253,251,250,0) 0%,rgba(253,251,250,.92) 70%,#FDFBFA 100%); /* @kind color */
+
+/* ── Semantic: text ───────────────────────────────────────── */
+--text-strong:var(--ink);--text-body:var(--stone-700);--text-muted:var(--stone-500);--text-faint:var(--stone-400);
+--text-accent:var(--wine-700);--text-gold:var(--gold-700);
+--text-on-wine:var(--blush-100);--text-on-wine-muted:rgba(253,238,241,.72);--text-on-blush:var(--wine-700);
+
+/* ── Semantic: surface ────────────────────────────────────── */
+--surface-page:var(--ivory);--surface-card:var(--white);--surface-soft:var(--blush-50);
+--surface-blush:var(--blush-200);--surface-sand:var(--sand-50);--surface-wine:var(--wine-700);
+--surface-wine-deep:var(--wine-900);--surface-overlay:rgba(46,36,34,.42);
+
+/* ── Semantic: border ─────────────────────────────────────── */
+--border-hairline:var(--sand-100);--border-subtle:var(--sand-200);--border-strong:var(--sand-300);
+--border-gold:var(--gold-300);--border-wine:var(--wine-700);--border-blush:var(--blush-300);
+
+/* ── Semantic: interactive ────────────────────────────────── */
+--action-primary:var(--wine-700);--action-primary-hover:var(--wine-600);--action-primary-active:var(--wine-800);
+--action-gold:var(--gold-500);--action-gold-hover:var(--gold-600);
+--focus-ring:var(--gold-500);--focus-ring-halo:rgba(201,162,75,.30);
+
+/* ── Semantic: status ─────────────────────────────────────── */
+--status-success:var(--sage-500);--status-success-bg:var(--sage-100);
+--status-warning:var(--gold-600);--status-warning-bg:var(--gold-100);
+--status-danger:var(--wine-500);--status-danger-bg:var(--wine-100);
+--status-info:var(--wine-600);--status-info-bg:var(--blush-100);
+}

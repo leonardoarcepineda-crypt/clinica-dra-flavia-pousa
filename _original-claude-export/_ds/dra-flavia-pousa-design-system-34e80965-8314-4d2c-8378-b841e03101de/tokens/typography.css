@@ -1,0 +1,27 @@
+:root{
+--font-display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+--font-signature:"Cormorant Garamond",Georgia,serif;
+--font-sans:"Poppins",system-ui,-apple-system,"Segoe UI",sans-serif;
+--font-body:var(--font-sans);
+
+--text-2xs:11px;--text-xs:12px;--text-sm:14px;--text-base:16px;--text-lg:18px;--text-xl:20px;
+--text-2xl:24px;--text-3xl:30px;--text-4xl:38px;--text-5xl:48px;--text-6xl:64px;--text-7xl:82px;
+
+--weight-light:300;/* @kind font */ --weight-regular:400;/* @kind font */ --weight-medium:500;/* @kind font */ --weight-semibold:600;/* @kind font */ --weight-bold:700; /* @kind font */
+
+--leading-tight:1.08;/* @kind font */ --leading-snug:1.24;/* @kind font */ --leading-normal:1.5;/* @kind font */ --leading-relaxed:1.72; /* @kind font */
+
+--tracking-eyebrow:.20em;/* @kind font */ --tracking-caps:.12em;/* @kind font */ --tracking-wide:.04em;/* @kind font */ --tracking-normal:0;/* @kind font */ --tracking-tight:-.012em; /* @kind font */
+
+/* Composed roles */
+--type-display:var(--weight-light) var(--text-6xl)/var(--leading-tight) var(--font-display); /* @kind font */
+--type-h1:var(--weight-light) var(--text-5xl)/var(--leading-tight) var(--font-display); /* @kind font */
+--type-h2:var(--weight-regular) var(--text-4xl)/var(--leading-snug) var(--font-display); /* @kind font */
+--type-h3:var(--weight-medium) var(--text-2xl)/var(--leading-snug) var(--font-display); /* @kind font */
+--type-signature:italic var(--weight-regular) var(--text-4xl)/1.1 var(--font-signature); /* @kind font */
+--type-eyebrow:var(--weight-medium) var(--text-xs)/1.4 var(--font-sans); /* @kind font */
+--type-body:var(--weight-light) var(--text-base)/var(--leading-relaxed) var(--font-sans); /* @kind font */
+--type-body-sm:var(--weight-light) var(--text-sm)/var(--leading-relaxed) var(--font-sans); /* @kind font */
+--type-label:var(--weight-medium) var(--text-sm)/1.4 var(--font-sans); /* @kind font */
+--type-caption:var(--weight-light) var(--text-xs)/1.5 var(--font-sans); /* @kind font */
+}

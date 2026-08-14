@@ -1,0 +1,6 @@
+/* Webfonts — Google Fonts CDN.
+   SUBSTITUTION: no font binaries were supplied with the brand kit. Cormorant Garamond
+   matches the serif/italic signature in the identity PDF; Poppins matches the geometric
+   letterspaced sans ("CLÍNICA ODONTOLÓGICA", captions). Swap for the licensed originals
+   when they are provided. */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap");
