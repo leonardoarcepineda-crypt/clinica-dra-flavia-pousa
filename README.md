@@ -47,9 +47,8 @@ um servidor.)
   Os outros dez especialistas estão representados como lista de especialidades na
   seção "Equipe" — quando houver nomes, fotos e CRO de cada um, dá para transformar
   essa lista em cards individuais, no mesmo padrão do card da Dra. Flavia.
-- **Domínio**: as tags `canonical`, Open Graph e o `sitemap.xml` estão apontando para
-  `https://www.draflaviapousa.com.br/` como placeholder — troque pelo domínio real
-  assim que ele for definido/comprado.
+- **Domínio**: as tags `canonical`, Open Graph e o `sitemap.xml` já apontam para
+  `https://www.draflaviapousaodontologia.com.br/`.
 
 ## Dados de contato usados no site
 

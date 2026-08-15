@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.draflaviapousa.com.br/sitemap.xml
+Sitemap: https://www.draflaviapousaodontologia.com.br/sitemap.xml
