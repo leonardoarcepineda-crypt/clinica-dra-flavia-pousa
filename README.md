@@ -12,7 +12,9 @@ css/
   styles.css         estilos de layout e componentes
 js/
   main.js            menu mobile, link ativo no scroll, animação de entrada
-assets/              logos (horizontal, vertical, símbolo, símbolo mono)
+assets/
+  logo-*.png         logos (horizontal, vertical, símbolo, símbolo mono)
+  fotos/             fotos reais da clínica (consultório, equipe, estrutura)
 robots.txt
 sitemap.xml
 _original-claude-export/   arquivos originais gerados no Claude (não fazem parte do
@@ -34,19 +36,19 @@ um servidor.)
 
 ## Pendências antes de publicar
 
-- **Fotos**: nenhuma foto real foi fornecida ainda. Todas as áreas de imagem estão
-  marcadas com `<div class="img-slot" data-label="...">` e um rótulo visível
-  (ex: "Foto do consultório — a inserir"). Para colocar uma foto real, troque o
-  conteúdo do `.img-slot` por uma tag `<img>` com a classe `has-photo`, por exemplo:
+- **Foto do hero (banner principal)**: essa é a única área de imagem ainda sem foto
+  real — todas as outras 8 (recepção, ambiente, consultório, sala de espera,
+  equipamento, corredor, esterilização, retrato da Dra. Flavia) já estão em
+  `assets/fotos/`. Para colocar a foto do hero, troque o bloco em `#inicio .hero-media`
+  do jeito que os outros já estão:
   ```html
   <div class="img-slot has-photo">
-    <img src="assets/fotos/consultorio.jpg" alt="Consultório da clínica">
+    <img src="assets/fotos/hero-consultorio.jpg" alt="..." loading="lazy">
   </div>
   ```
-- **Equipe**: só a Dra. Flavia Pousa está com card individual (nome e CRO reais).
-  Os outros dez especialistas estão representados como lista de especialidades na
-  seção "Equipe" — quando houver nomes, fotos e CRO de cada um, dá para transformar
-  essa lista em cards individuais, no mesmo padrão do card da Dra. Flavia.
+- **Equipe**: só a Dra. Flavia Pousa está com card individual (foto, nome e CRO
+  reais). Os outros dez especialistas estão representados como lista de
+  especialidades na seção "Equipe", sem fotos — assim foi pedido.
 - **Domínio**: as tags `canonical`, Open Graph e o `sitemap.xml` já apontam para
   `https://www.draflaviapousaodontologia.com.br/`.
 
@@ -56,11 +58,11 @@ um servidor.)
 |---|---|
 | Telefone | (21) 3497-1692 |
 | WhatsApp | (21) 97966-8927 |
-| E-mail | flaviapousadentista@hotmail.com |
+| E-mail | clinica@draflaviapousaodontologia.com.br |
 | Endereço | Estrada Coronel Pedro Corrêa, 740 - Sala 603, Barra Olímpica, Rio de Janeiro - RJ, CEP 22775-090 |
 | CRO-RJ | 35833 |
 | Instagram | instagram.com/draflaviapousa |
-| Horário | Segunda a sexta, 9h às 18h |
+| Horário | Segunda a sexta 9h às 18h · Sábado apenas horário marcado · Domingo fechado |
 
 ## Deploy na Hostinger
 
