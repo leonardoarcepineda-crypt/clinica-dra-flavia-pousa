@@ -36,16 +36,9 @@ um servidor.)
 
 ## Pendências antes de publicar
 
-- **Foto do hero (banner principal)**: essa é a única área de imagem ainda sem foto
-  real — todas as outras 8 (recepção, ambiente, consultório, sala de espera,
-  equipamento, corredor, esterilização, retrato da Dra. Flavia) já estão em
-  `assets/fotos/`. Para colocar a foto do hero, troque o bloco em `#inicio .hero-media`
-  do jeito que os outros já estão:
-  ```html
-  <div class="img-slot has-photo">
-    <img src="assets/fotos/hero-consultorio.jpg" alt="..." loading="lazy">
-  </div>
-  ```
+- **Fotos**: todas as 9 áreas de imagem do site (hero, recepção, ambiente,
+  consultório, sala de espera, equipamento, corredor, esterilização, retrato da
+  Dra. Flavia) já estão com fotos reais em `assets/fotos/`.
 - **Equipe**: só a Dra. Flavia Pousa está com card individual (foto, nome e CRO
   reais). Os outros dez especialistas estão representados como lista de
   especialidades na seção "Equipe", sem fotos — assim foi pedido.
